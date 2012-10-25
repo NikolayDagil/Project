@@ -1,0 +1,27 @@
+CREATE  TABLE `project`.`Customer` (
+
+
+  `idCustomer` INT NOT NULL ,
+
+ 
+  `home` VARCHAR(255) NULL ,
+
+ 
+  `country` VARCHAR(255) NULL ,
+
+  `sity` VARCHAR(255) NULL ,
+
+  
+  `postcode` INT NULL ,
+
+ 
+  `rating` INT NULL ,
+
+
+  `balance` INT NULL ,
+
+
+  `discounts` INT NULL ,
+
+
+  PRIMARY KEY (`idCustomer`) );

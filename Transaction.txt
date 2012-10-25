@@ -1,0 +1,5 @@
+CREATE  TABLE `project`.`Transaction` (
+  `idTransaction` INT NOT NULL ,
+  `idBook` INT NULL,
+  `idCustomer` INT NULL,
+  PRIMARY KEY (`idTransaction`) );

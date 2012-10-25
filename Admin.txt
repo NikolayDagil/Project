@@ -1,0 +1,4 @@
+CREATE  TABLE `project`.`Admin` (
+  `idAdmin` INT NOT NULL ,
+  `role` VARCHAR(45) NULL ,
+  PRIMARY KEY (`idAdmin`) );

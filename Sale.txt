@@ -1,0 +1,9 @@
+CREATE  TABLE `project`.`Sale` (
+  `idSale` INT NOT NULL ,
+  `home` VARCHAR(45) NULL ,
+  `country` VARCHAR(45) NULL ,
+  `sity` VARCHAR(45) NULL ,
+  `password` VARCHAR(45) NULL ,
+  `postcode` INT NULL ,
+  `role` VARCHAR(45) NULL ,
+  PRIMARY KEY (`idSale`) );
